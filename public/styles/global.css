@@ -1,0 +1,19 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @apply bg-[#090909] text-white;
+}
+
+.error {
+  @apply text-red-400 text-xs;
+}
+
+.primary-input {
+  @apply p-3 rounded-sm bg-transparent border-[1px] border-white;
+}
+.primary-btn {
+  @apply bg-[#fcba41] text-black hover:scale-110 ease-in duration-200 rounded-md cursor-pointer;
+}

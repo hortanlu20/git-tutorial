@@ -1,0 +1,20 @@
+ <--Pushing first code-->
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hortanlu20/git-tutorial.git
+git push -u origin main
+
+<--Updating existing code-->
+
+
+Projects 
+FIRSTPRACTICE
+git push -u git-tutorial2 main
+git config --global http.postBuffer 524288000
+config --global http.maxRequestBuffer 100M
+config --global http.lowSpeedLimit 0 
+git config --global http.lowSpeedTime 999999
+git config --global http.version HTTP/1.1   
+git config --global http.sslVerify "true"
