@@ -7,7 +7,9 @@ git remote add origin https://github.com/hortanlu20/git-tutorial.git
 git push -u origin main
 
 <--Updating existing code-->
-
+git add .
+git commit -m "first commit"
+git push -u origin main
 
 Projects 
 FIRSTPRACTICE

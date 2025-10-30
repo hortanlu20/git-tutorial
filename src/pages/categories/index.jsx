@@ -53,6 +53,7 @@ const CategoryPage = () => {
               <img src="/images/view.png" alt="" className="rounded-full " />
             </Link>
           </div>
+          {/* whats Happenning */}
         </td>
       </tr>
     );
